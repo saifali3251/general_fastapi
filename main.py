@@ -9,7 +9,7 @@ app.include_router(router)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://statuesque-tiramisu-a713bf.netlify.app/"],
+    allow_origins=["https://statuesque-tiramisu-a713bf.netlify.app"],
     allow_methods=["*"]
 )
 
